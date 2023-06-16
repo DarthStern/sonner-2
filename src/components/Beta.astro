@@ -1,0 +1,32 @@
+<section class="landing-section bg-black h-screen w-screen text-center relative overflow-hidden"
+data-header-color="black">
+    <div class="z-30 relative h-full flex flex-col">
+        <header>
+            <h2 class="text-black pt-[140px] text-5xl font-medium">Programa Beta</h2>
+            <p class="text-black pt-5 text-base underline">¡Únete a la beta de Sonner y sé parte de la vanguardia musical! <br> Prueba funciones únicas antes de tiempo y desata tu potencial creativo. ¡Inscríbete ahora!</p>
+        </header><br><br>
+        <main>
+            <form action="enviar_formulario.php" method="POST">
+                <input type="text" name="email" id="email" placeholder="email" required class="border-2 border-black bg-white/5 backdrop-blur-xl rounded text-medium text-white px-6 py-2 inline-block hover:bg-white hover:text-black transition-colors">
+                <input type="submit" value="enviar" class="border-2 border-black bg-white/5 backdrop-blur-xl rounded text-medium text-black px-6 py-2 inline-block hover:bg-white hover:text-black transition-colors">
+              </form>
+              <br>
+        </main>
+            <footer class="flex flex-grow flex-col justify-end pb-24">
+
+                <div class="gap-x-4 flex mx-auto">
+                    <a href="#" class="border-2 border-black bg-white/5 backdrop-blur-xl rounded text-medium text-black px-6 py-2 inline-block hover:bg-white/5
+                    hover:text-black transition-colors">
+                        Otras opciones
+                    </a>
+                    <a href="#" class="border-2 border-black bg-white/5 backdrop-blur-xl rounded text-medium text-black px-6 py-2 inline-block hover:bg-white/5
+                    hover:text-black transition-colors">
+                        Contactar
+                    </a>
+                </div>
+            </footer> 
+    </div>
+    <div class="absolute top-0 bottom-0 h-full w-full z-10">
+        <img src="/mockup2.png" alt="image" class="h-full w-full object-cover object-center"/>
+    </div>
+</section>
